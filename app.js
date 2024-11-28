@@ -1,6 +1,5 @@
 const { SerialPort, ReadlineParser  } = require('serialport')
-// const estado = document.querySelector(".dato")
-// const estado = getElementsByClassName("led")
+
 const port = new SerialPort({
   path: 'COM5',
   baudRate: 9600,
